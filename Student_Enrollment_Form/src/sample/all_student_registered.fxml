@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.AllStudentRegistered"
+            prefHeight="600.0"  prefWidth="1000.0">
+
+
+    <children>
+
+        <TableView fx:id="main_data_table"  layoutY="170" layoutX="120" prefHeight="400" prefWidth="800">
+
+
+            <columns>
+
+                <TableColumn prefWidth="100" text="First Name of Student" fx:id="first_name_of_student"/>
+                <TableColumn prefWidth="100" text="Last Name of Student" fx:id="last_name_of_student"/>
+                <TableColumn prefWidth="100" text="Name of Father" fx:id="name_of_father"/>
+                <TableColumn prefWidth="100" text="Name of Mother" fx:id="name_of_mother"/>
+                <TableColumn prefWidth="100" text="Gender" fx:id="gender_of_student"/>
+                <TableColumn prefWidth="100" text="Date of Birth" fx:id="date_of_birth"/>
+                <TableColumn prefWidth="100" text="Current Address" fx:id="address"/>
+                <TableColumn prefWidth="100" text="Extra Info" fx:id="extra_info"/>
+
+            </columns>
+
+
+        </TableView>
+
+    </children>
+
+
+</AnchorPane>

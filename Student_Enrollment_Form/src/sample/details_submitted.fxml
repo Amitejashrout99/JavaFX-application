@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.DetailsSubmitted"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+
+
+        <Text fx:id="name_of_student" textAlignment="CENTER"/>
+        <Text fx:id="name_of_father" textAlignment="CENTER"/>
+        <Text fx:id="name_of_mother" textAlignment="CENTER"/>
+        <Text fx:id="gender" textAlignment="CENTER"/>
+        <Text fx:id="date_of_birth" textAlignment="CENTER"/>
+        <Text fx:id="address" textAlignment="CENTER"/>
+
+
+
+    </children>
+
+
+
+
+</AnchorPane>
